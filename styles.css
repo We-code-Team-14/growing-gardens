@@ -21,7 +21,7 @@ p {
 
 .topnav a {
   float: left;
-  font-family:'Oswald', sans-serif;
+  font-family:"Roboto", arial, sans-serif;
   display: block;
   color: #13ad34;
   text-align: left;
@@ -46,6 +46,17 @@ p {
 .navlogo {
   width:40%;
 }
+.communityPost {
+    border: 1px solid #e5e5e5;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.submit-btn {
+    display:inline-block;
+}
+
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
